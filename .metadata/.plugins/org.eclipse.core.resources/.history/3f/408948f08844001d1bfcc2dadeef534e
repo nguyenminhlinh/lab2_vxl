@@ -92,7 +92,7 @@ int main(void)
 HAL_TIM_Base_Start_IT(&htim2);
 const int MAX_LED=4;
 int index_led=0;
-int led_buffer[4]={1,2,3,4};
+int led_buffer[4]={1,9,3,8};
 void update7SEG(int index)
 {
 	switch (index)
