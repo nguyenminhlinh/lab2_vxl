@@ -583,3 +583,43 @@
 2022-10-05 14:49:01,358 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1641mS.
 2022-10-05 14:49:01,358 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2022-10-05 14:49:01,358 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-10-05 17:10:18,685 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:10:18,685 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:10:18,857 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:10:18,857 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:10:19,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:10:19,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:12:54,257 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:12:54,257 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:12:54,491 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:12:54,492 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:12:54,732 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:12:54,732 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:13:53,849 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:13:53,849 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:13:53,974 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:13:53,974 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:13:54,086 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:13:54,086 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:26:22,422 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:26:22,422 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:26:22,531 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:26:22,531 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-05 17:26:22,609 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:7: The string "--" is not permitted within comments.
+2022-10-05 17:26:22,609 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-06 13:19:48,224 [INFO] Activator:177 - 
+
+
+2022-10-06 13:19:48,225 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 21:57:50,800 [INFO] Activator:177 - 
+
+
+2022-10-07 21:57:50,802 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 21:59:28,967 [INFO] Activator:177 - 
+
+
+2022-10-07 21:59:28,969 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-11 14:02:09,235 [INFO] Activator:177 - 
+
+
+2022-10-11 14:02:09,235 [INFO] Activator:178 - !SESSION log4j initialized
