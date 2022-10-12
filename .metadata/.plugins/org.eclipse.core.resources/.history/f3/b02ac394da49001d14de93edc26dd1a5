@@ -96,7 +96,13 @@ int led_buffer[4]={1,2,3,4};
 const int MAX_LED_MATRIX=8;
 int index_led_matrix=0;
 unit8_t matix_buffer[8]={0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
+void display(unit8_t nums)
 
+{
+	switch (nums)
+		{
+		case :
+}
 HAL_GPIO_WritePin(ENM0_GPIO_Port, EN0_Pin,1);
 HAL_GPIO_WritePin(ENM1_GPIO_Port, EN1_Pin,1);
 HAL_GPIO_WritePin(ENM2_GPIO_Port, EN2_Pin,1);
