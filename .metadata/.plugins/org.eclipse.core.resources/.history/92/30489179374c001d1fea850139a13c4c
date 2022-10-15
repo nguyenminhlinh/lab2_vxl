@@ -97,7 +97,7 @@ int hour=15,minute=8,second=50;
 const int MAX_LED_MATRIX=8;
 int index_led_matrix=0;
 //uint8_t matrix_buffer[8]={0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
-uint8_t matrix_buffer[15]={0x00, 0xFC, 0xFE, 0x33, 0x33, 0xFE, 0xFC, 0x00,0x00,0xFC, 0xFE, 0x33, 0x33, 0xFE, 0xFC};
+uint8_t matrix_buffer[8]={0x00, 0xFC, 0xFE, 0x33, 0x33, 0xFE, 0xFC, 0x00};
 
 
 void updateLEDMatrix(int index,int dem)
@@ -211,9 +211,8 @@ void update7SEG(int index)
 	  		  if(index_led>(MAX_LED-1)){index_led=0;}
 	  	  }
 	  	if(timer3_flag == 1){
-	  			if(index_led_matrix == MAX_LED_MATRIX) {index_led_matrix = 0;dem++;if(dem==MAX_LED_MATRIX){dem=0;}}
-
-	  			updateLEDMatrix(index_led_matrix++,dem);
+	  			if(index_led_matrix == MAX_LED_MATRIX) {index_led_matrix = 0;dem++}
+	  			updateLEDMatrix(index_led_matrix++);
 	  			setTimer3(20);
 	  		  }
     /* USER CODE BEGIN 3 */
