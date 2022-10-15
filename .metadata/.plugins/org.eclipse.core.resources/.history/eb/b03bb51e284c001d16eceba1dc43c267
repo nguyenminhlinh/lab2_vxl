@@ -96,17 +96,15 @@ int led_buffer[4]={1,2,3,4};
 int hour=15,minute=8,second=50;
 const int MAX_LED_MATRIX=8;
 int index_led_matrix=0;
-//uint8_t matrix_buffer[8]={0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
-uint8_t matrix_buffer[8]={0x00, 0xFC, 0xFE, 0x33, 0x33, 0xFE, 0xFC, 0x00};
+unit8_t matrix_buffer[8]={0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
 
 
 void updateLEDMatrix(int index)
 {
 	HAL_GPIO_WritePin(GPIOA, ENM0_Pin|ENM1_Pin|ENM2_Pin|ENM3_Pin
 								|ENM4_Pin|ENM5_Pin|ENM6_Pin|ENM7_Pin, 1);
-	//GPIOB->ODR = ~matrix_buffer[index] << 8;
-	HAL_GPIO_WritePin(GPIOB, 0xff << 8, 1);
-	HAL_GPIO_WritePin(GPIOB, matrix_buffer[index] << 8, 0);
+	HAL_GPIO_WritePin(GPIOB, 0xff << 8, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(GPIOB, matrix_buffer[index] << 8, GPIO_PIN_RESET);
 	switch(index){
 			case 0:
 				HAL_GPIO_WritePin(ENM0_GPIO_Port, ENM0_Pin, 0);
@@ -176,9 +174,9 @@ void update7SEG(int index)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  setTimer1(250);
+  setTimer1(500);
   setTimer2(1000);
-  setTimer3(2);
+  setTimer3(10);
   while (1)
   {
     /* USER CODE END WHILE */
@@ -213,7 +211,7 @@ void update7SEG(int index)
 	  	if(timer3_flag == 1){
 	  			if(index_led_matrix == MAX_LED_MATRIX) index_led_matrix = 0;
 	  			updateLEDMatrix(index_led_matrix++);
-	  			setTimer3(2);
+	  			setTimer3(10);
 	  		  }
     /* USER CODE BEGIN 3 */
   }
